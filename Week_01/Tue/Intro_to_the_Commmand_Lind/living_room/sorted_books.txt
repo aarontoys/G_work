@@ -1,0 +1,10 @@
+
+
+  background-color: skyblue;
+  border-radius: 20px;
+  color: white;
+  display: block;
+  font-size: 14px
+  margin: 48px auto 0;
+  width: 144px;
+height: 48px;
