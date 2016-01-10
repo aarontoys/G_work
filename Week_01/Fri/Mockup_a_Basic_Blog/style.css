@@ -1,0 +1,113 @@
+/*Clear some styles*/
+ul {
+  padding: 0px;
+}
+
+/*rest of css */
+
+/*global css */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url(http://images.vectorhq.com/images/premium/thumbs/163/bowling-alley-background_163597892.jpg)
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+a:hover{
+  text-transform: uppercase;
+  color: red;
+}
+
+/* rest of css */
+aside {
+  float: left;
+  width: 20%;
+}
+
+section {
+  float: left;
+  width: 75%;
+}
+nav {
+  background-color: #ccc;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav:not(:last-child):after {
+  content: " |";
+}
+li.nav{
+  margin-left: 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+img{
+  margin-top: 10px;
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.post_photo{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.post_txt{
+  float: left;
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+section{
+  margin-bottom: 50px;
+}
+footer{
+  background-color: #111;
+  clear: both;
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+

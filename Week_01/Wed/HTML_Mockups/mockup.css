@@ -1,0 +1,75 @@
+.indent {
+  margin-left: 20px;
+}
+
+img {
+  height: 300px;
+  /* width: 200px; */
+}
+
+figcaption {
+  color: blue;
+}
+
+.mockup03 {
+  background-color: royalblue;
+}
+
+h2 {
+  color: white;
+}
+
+select{
+  float: left;
+  margin: 0 5%;
+  width: 40%;
+}
+/*
+#instructor {
+  float: right;
+  margin: 0 5%;
+  width: 40;
+}
+*/
+div {
+  clear: both;
+    margin: 0 auto;
+}
+
+nav {
+  
+  border-bottom: solid 1px black;
+}
+
+nav a{
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+
+#mu4 {
+  color: orange;
+}
+
+form {
+  margin-left: 15px;
+  color: blue;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#submit{
+  background-color: orange;
+  color: black;
+  box-shadow: 2px 2px 0px 0px black;
+  border-color: black;
+}
+/*
+#b4{
+  
+  border: solid 1px black;
+  }
+  */
