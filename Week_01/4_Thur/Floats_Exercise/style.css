@@ -1,0 +1,36 @@
+
+body{
+  background-color: #a8a8a8;
+}
+
+header{
+  padding: 30px;
+}
+
+.text{
+  background-color: white;
+  width: 66%;
+  float: left;
+}
+
+nav{
+  background-color: #d3d3d3;
+  width: 34%;
+  float: left;
+}
+
+footer{
+  background-color: grey;
+  padding: 2.5px;
+  clear: both;
+}
+
+li{
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}

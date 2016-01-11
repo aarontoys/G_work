@@ -1,0 +1,29 @@
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+/* Your Code Goes Under This Line */
+.subtle {
+  box-shadow: 1px 1px 8px 1px rgba(0,0,0,.1);
+}
+
+.fun{
+  box-shadow: 
+               0px -10px 10px blue, 
+              -15px -20px 0px blue,
+              10px 0px 13px 5px red,
+              0 20px 20px 0px lawngreen;
+              
+}

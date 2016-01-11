@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+}
+
+/* Code Under This Line */
+
+div:nth-child(n+3){
+  border: solid yellow 10px;
+}
+/*div:nth-child(3){
+  border: solid blue 10px;
+}
+div:nth-child(4){
+  border-left: solid green 10px;
+}
+div:nth-child(5){
+  border-left: solid blue 5px;
+  border-right: solid blue 5px;
+  border-top: solid red 5px;
+  border-bottom: solid red 5px;
+}*/
