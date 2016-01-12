@@ -1,0 +1,35 @@
+header{
+  background-color: #333;
+  height: 150px;
+  
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+a {
+  text-transform: capitalize;
+  color: #ccc;
+}
+
+img{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ul {
+  /*margin: 0 auto;*/
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li:not(:last-child):after {
+  content: " |";
+}
