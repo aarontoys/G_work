@@ -1,14 +1,14 @@
-console.log('Pick a number')
+// console.log('Pick a number')
 
 
-var num = 3
+var num = 15
 if (num % 3 === 0 && num % 5 === 0) {
   console.log('FizzBuzz');
 }
-elseif (num % 3 === 0){
+else if (num % 3 === 0) {
   console.log('Fizz');
 }
-elseif (num % 5 === 0){
+else if (num % 5 === 0) {
   console.log('Buzz')
 }
 else{
