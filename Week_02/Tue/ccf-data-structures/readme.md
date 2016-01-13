@@ -4,23 +4,23 @@ A local chain of candy stores has hired you to draw conclusions from their sales
 
 ### Exercises
 
-#### Let's practice reading values from the data
+<!-- #### Let's practice reading values from the data
  - How would I access the value '4.63' from store1?
  - What about the cost of 'Dark Chocolate Crunchies' from store4?
  - Now get the sale dates for 'Banana Bunches' from store2.
  - What built-in array property would I use to determine how many sale dates there for store2's 'Banana Bunches'?
  - Use the same property to count the total number of 'Berry Bites' sold by store4.
  - Create a variable to store the name of a candy (such as `var candy = 'Caramel Twists'`). Use this variable to access the sale dates for that candy in store 2.
- - Update the previous candy name variable to a different candy. How did that change the sale date data ouput?
+ - Update the previous candy name variable to a different candy. How did that change the sale date data ouput? -->
 
-#### Now let's try updating some values:
+<!-- #### Now let's try updating some values:
  - Set a variable to equal the prices of the 'Mint Wafers' in store2. (Spoiler warning... `var mintWafersCost = store2['inventory prices']['Mint Wafers']`)
  - When you update your new variable, does the price in the store2 data change? Why?
  - Now set a variable equal to the Peanut Butter Buttered Peanuts sale dates in store2. (Spoiler... `var pbbpSaleDates = store2['sale dates']`)
  - Use the `Array.push()` method to add two sale dates to the pbbpSaleDates variable. Does the original store 2 data change? Why?
- - Use `Array.pop()` to remove one of the sale dates for store2's Caramel Twists.
+- Use `Array.pop()` to remove one of the sale dates for store2's Caramel Twists.
  - Set a variable equal to Berry Bites data for store3 on January 7. (Spoiler... `var berryBitesData = store3[1]['inventory sold']['Berry Bites'])
- - Use your new variable to modify the quantity sold. Do you expect the store3 variable to have changed? Why?
+ - Use your new variable to modify the quantity sold. Do you expect the store3 variable to have changed? Why? -->
 
 #### Now let's loop over some of the data:
  - Create a loop to read which candies were sold by store1 on Jan 8. After simply outputting the data, try creating an array that contains the candy names.
