@@ -253,77 +253,115 @@ var store4 = {
       }
 }
 
-// Exercises
+// Exercises - see readme.md for line refs:
 
 //Section 1
 
-  // console.log(store1['2015-01-08'][0][1]);
-  // console.log(store4['Dark Chocolate Crunchies']['cost']);
-  // console.log(store2['sale dates']['Banana Bunches']);
-  // console.log(store2['sale dates']['Banana Bunches'].length);
-  // console.log(store4['Berry Bites']['sold on'].length);
+  //8 console.log(store1['2015-01-08'][0][1]);
+  //9 console.log(store4['Dark Chocolate Crunchies']['cost']);
+  //10 console.log(store2['sale dates']['Banana Bunches']);
+  //11 console.log(store2['sale dates']['Banana Bunches'].length);
+  //12 console.log(store4['Berry Bites']['sold on'].length);
 
-  // var candy = 'Mint Wafers' 
-  // console.log(store2['sale dates'][candy]);
+  //13 var candy = 'Mint Wafers' 
+  //   console.log(store2['sale dates'][candy]);
+  //14 var candy = 'Banana Bunches' 
+  //   console.log(store2['sale dates'][candy]);
 
 //Section 2
 
-  // var prices = store2['inventory prices']['Mint Wafers']
-  // console.log(prices);
+  //17 var prices = store2['inventory prices']['Mint Wafers']
+  //   console.log(prices);
 
 
-  // prices = 2.05;
-  // console.log(prices);
+  //18 prices = 2.05;
+  //   console.log(prices);
 
-  // var pbbsSalesDates = store2['sale dates']['Peanut Butter Buttered Peanuts']
-  // console.log(pbbsSalesDates);
+  //19 var pbbsSalesDates = store2['sale dates']['Peanut Butter Buttered Peanuts']
+  //   console.log(pbbsSalesDates);
 
-  // pbbsSalesDates.push('2016-01-12', '2016-01-13');
-  // console.log(pbbsSalesDates);
+  //20 pbbsSalesDates.push('2016-01-12', '2016-01-13');
+  //   console.log(pbbsSalesDates);
 
-  // var CT = store2['sale dates']['Caramel Twists'];
-  // console.log(CT.length);
-  // CT.pop();
-  // console.log(CT.length);
+  //21 var CT = store2['sale dates']['Caramel Twists'];
+  //   console.log(CT.length);
+  //   CT.pop();
+  //   console.log(CT.length);
 
-  // var BB = store3[1]['inventory sold']['Berry Bites']
-  // console.log(BB);
+  //22 var BB = store3[1]['inventory sold']['Berry Bites']
+  //   console.log(BB);
 
-  // BB['quantity'] = 372;
+  //23 BB['quantity'] = 372;
   // console.log(BB);
 
 //Section 3
-  // var can1 = store1['2015-01-08']
-  // var can2 = [];
-  // for(var key in can1){
-  //   console.log(can1[key][0]);
+  //26 var can1 = store1['2015-01-08']
+  //   var can2 = [];
+  //   for(var key in can1){
+  //     console.log(can1[key][0]);
     
-  //   can2.push(can1[key][0]);
-  // }
-  // console.log(can2);
-  // console.log(can2[2]);
-
-  //--------
+  //     can2.push(can1[key][0]);
+  //   }
+  //   console.log(can2);
+  //   console.log(can2[2]);
   
-  // var can1 = store1['2015-01-08']
-  // var can2 = [];
-  // var i = 0;
-  // for(var key in can1){
-  //   i += can1[key][2];
+  //27 var can1 = store1['2015-01-08']
+  //   var can2 = [];
+  //   var i = 0;
+  //   for(var key in can1){
+  //     i += can1[key][2];
   //   // i += i;
   //   // console.log(i);
-  // }
-  // console.log(i);
+  //   }
+  //   console.log(i);
 
-  //-------
-  var can3 = store3;
-  var s3dates = [];
-  for (var key in can3){
-    console.log(can3[key]['date']);
-    s3dates.push(can3[key]['date']);
-  }
-  console.log(s3dates);
+  //28 var can3 = store3;
+  //   var s3dates = [];
+  //   for (var key in can3){
+  //     console.log(can3[key]['date']);
+  //     s3dates.push(can3[key]['date']);
+  //   }
+  //   console.log(s3dates);
 
+  //29
+        var can4 = store2['sale dates']['Caramel Twists'];
+        var CTobj ={};
+        var s3arr = [];
+        // console.log(can4[key]);
+        for (var  key in can4){
+          s3arr.push(can4[key])
+        }
+        console.log(s3arr);
+        //   var j = 1;
+        //   var i = 0;
+        // for(var i; i <= s3arr.length; ++i){
+        //     j = 1;
+        //   if(s3arr[(i+1)] === s3arr[(i)])
+        //     j += 1;
+        //   console.log(j);
+        // }
+        // for(var i; i <= s3arr.length; ++i){
+        //   if(s3arr[i] === s3arr[(i+1)]){
+        //     CTobj.push(s3arr[i] + "")
+        //   }
+        // var arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+// var counts = {};
+
+for(var i = 0; i< s3arr.length; i++) {
+    var num = s3arr[i];
+    // CTobj[num] = CTobj[num] ? CTobj[num]+1 : 1;
+    if (CTobj[num] = CTobj[num]){
+      CTobj[num] = CTobj[num]+1;
+    }
+    else  {
+      CTobj[num] = 1;
+    }
+}
+console.log(CTobj);
+        
+
+        
+        
   
 
 
