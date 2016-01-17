@@ -356,26 +356,40 @@ var store4 = {
 //32 N/A
 
 //33
-  // var key in store1
-  var s1Dates = Object.keys(store1)
-  console.log(s1Dates[1])
-
-  for(var key in store1){
-    console.log(store1[key][2][0]);
-  }
-  // for (var i = 0; i < s1Dates.length; ++i){
-  //   console.log(s1Dates[i][4]);
-  // }
-
-//34
   // var s1Dates = Object.keys(store1)
-  // // var numCan = 0
-  // console.log(s1Dates);
+  // // console.log(s1Dates)
 
   // for(var key in store1){
-  //   for(var i = 0; i < s1Dates; ++i){
-  //     console.log(s1Dates[key]);
-  //   }
+  //   console.log(store1[key]);
+  // }
+
+
+//34
+  var s1Dates = Object.keys(store1)
+  // var numCan = 0
+  // console.log(s1Dates);
+  // console.log(s1Dates);
+  
+   for(var key in store1){
+    var allArr = store1[key];
+    console.log(allArr);
+  }
+
+// let's try using for loop!!!
+  for (var i = 0; i <= allArr.length; ++i){
+    console.log(allArr);
+  }
+
+  // for(var key in store1){
+  //   var allArr = store1[key];
+  //   console.log(allArr[k);
+  // }
+
+
+  // for(var key in store1){
+  //   // for(var i = 0; i < s1Dates; ++i){
+  //     console.log(store1[key][0][0]);
+  //   // }
   // }
 
         
