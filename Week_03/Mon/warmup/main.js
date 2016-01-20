@@ -42,7 +42,7 @@ function guessingGame () {
 
 }
 
-function addGuess (innerHTML, divEl){
+function addGuess (innerHTML){
   var p = document.createElement('p');
   p.innerText = innerHTML;
   div.insertBefore(p, div.childNodes[0]);

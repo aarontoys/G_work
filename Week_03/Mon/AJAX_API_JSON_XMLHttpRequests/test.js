@@ -18,7 +18,7 @@ awwRequest.onreadystatechange = function () {
 };
 
 // Tell the XMLHttpRequest where you want it to go and how
-awwRequest.open('GET', 'https://www.reddit.com/r/aww.json');
+awwRequest.open('GET', 'https://www.reddit.com/r/trees.json');
 
 // Send it off! Good luck little XMLHttpRequest! :D
 awwRequest.send();
